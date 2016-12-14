@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A3FEFBE1E01140D005366F1 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FEFBD1E01140D005366F1 /* MenuController.swift */; };
+		5A3FEFC01E011628005366F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FEFBF1E011628005366F1 /* HomeViewController.swift */; };
+		5A3FEFC21E012D0B005366F1 /* TwoPulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FEFC11E012D0B005366F1 /* TwoPulleyViewController.swift */; };
+		5A3FEFC41E012D37005366F1 /* ThreePulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FEFC31E012D37005366F1 /* ThreePulleyViewController.swift */; };
+		5A3FEFC61E012F44005366F1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FEFC51E012F44005366F1 /* SettingsViewController.swift */; };
+		5A3FEFC81E012FD8005366F1 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3FEFC71E012FD8005366F1 /* AboutViewController.swift */; };
+		5A3FEFCB1E013954005366F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3FEFC91E013954005366F1 /* Main.storyboard */; };
 		5A403BCC1E00E6C70069AA1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A403BCB1E00E6C70069AA1D /* AppDelegate.swift */; };
 		5A403BCE1E00E6C70069AA1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A403BCD1E00E6C70069AA1D /* ViewController.swift */; };
-		5A403BD11E00E6C70069AA1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A403BCF1E00E6C70069AA1D /* Main.storyboard */; };
 		5A403BD41E00E6C70069AA1D /* V_Beltcalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A403BD21E00E6C70069AA1D /* V_Beltcalc.xcdatamodeld */; };
 		5A403BD61E00E6C70069AA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A403BD51E00E6C70069AA1D /* Assets.xcassets */; };
 		5A403BD91E00E6C70069AA1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A403BD71E00E6C70069AA1D /* LaunchScreen.storyboard */; };
+		5A403BE21E00EFAE0069AA1D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A403BE11E00EFAE0069AA1D /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A3FEFBD1E01140D005366F1 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		5A3FEFBF1E011628005366F1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5A3FEFC11E012D0B005366F1 /* TwoPulleyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPulleyViewController.swift; sourceTree = "<group>"; };
+		5A3FEFC31E012D37005366F1 /* ThreePulleyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreePulleyViewController.swift; sourceTree = "<group>"; };
+		5A3FEFC51E012F44005366F1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5A3FEFC71E012FD8005366F1 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5A3FEFCA1E013954005366F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A403BC81E00E6C70069AA1D /* V-Beltcalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "V-Beltcalc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A403BCB1E00E6C70069AA1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A403BCD1E00E6C70069AA1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A403BD01E00E6C70069AA1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A403BD31E00E6C70069AA1D /* V_Beltcalc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = V_Beltcalc.xcdatamodel; sourceTree = "<group>"; };
 		5A403BD51E00E6C70069AA1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A403BD81E00E6C70069AA1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A403BDA1E00E6C70069AA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A403BE01E00EFAD0069AA1D /* V-Beltcalc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "V-Beltcalc-Bridging-Header.h"; sourceTree = "<group>"; };
+		5A403BE11E00EFAE0069AA1D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5A403BE31E00F0A80069AA1D /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,32 @@
 		5A403BCA1E00E6C70069AA1D /* V-Beltcalc */ = {
 			isa = PBXGroup;
 			children = (
+				5A403BE41E0100A30069AA1D /* SWRevealViewController */,
 				5A403BCB1E00E6C70069AA1D /* AppDelegate.swift */,
 				5A403BCD1E00E6C70069AA1D /* ViewController.swift */,
-				5A403BCF1E00E6C70069AA1D /* Main.storyboard */,
 				5A403BD51E00E6C70069AA1D /* Assets.xcassets */,
+				5A3FEFC91E013954005366F1 /* Main.storyboard */,
 				5A403BD71E00E6C70069AA1D /* LaunchScreen.storyboard */,
 				5A403BDA1E00E6C70069AA1D /* Info.plist */,
 				5A403BD21E00E6C70069AA1D /* V_Beltcalc.xcdatamodeld */,
+				5A3FEFBD1E01140D005366F1 /* MenuController.swift */,
+				5A3FEFBF1E011628005366F1 /* HomeViewController.swift */,
+				5A3FEFC11E012D0B005366F1 /* TwoPulleyViewController.swift */,
+				5A3FEFC31E012D37005366F1 /* ThreePulleyViewController.swift */,
+				5A3FEFC51E012F44005366F1 /* SettingsViewController.swift */,
+				5A3FEFC71E012FD8005366F1 /* AboutViewController.swift */,
 			);
 			path = "V-Beltcalc";
+			sourceTree = "<group>";
+		};
+		5A403BE41E0100A30069AA1D /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A403BE01E00EFAD0069AA1D /* V-Beltcalc-Bridging-Header.h */,
+				5A403BE11E00EFAE0069AA1D /* SWRevealViewController.m */,
+				5A403BE31E00F0A80069AA1D /* SWRevealViewController.h */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +133,7 @@
 					5A403BC71E00E6C70069AA1D = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = T452ZH54XV;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,9 +161,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3FEFCB1E013954005366F1 /* Main.storyboard in Resources */,
 				5A403BD91E00E6C70069AA1D /* LaunchScreen.storyboard in Resources */,
 				5A403BD61E00E6C70069AA1D /* Assets.xcassets in Resources */,
-				5A403BD11E00E6C70069AA1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,19 +174,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3FEFBE1E01140D005366F1 /* MenuController.swift in Sources */,
 				5A403BCE1E00E6C70069AA1D /* ViewController.swift in Sources */,
+				5A3FEFC01E011628005366F1 /* HomeViewController.swift in Sources */,
 				5A403BD41E00E6C70069AA1D /* V_Beltcalc.xcdatamodeld in Sources */,
+				5A3FEFC41E012D37005366F1 /* ThreePulleyViewController.swift in Sources */,
 				5A403BCC1E00E6C70069AA1D /* AppDelegate.swift in Sources */,
+				5A403BE21E00EFAE0069AA1D /* SWRevealViewController.m in Sources */,
+				5A3FEFC21E012D0B005366F1 /* TwoPulleyViewController.swift in Sources */,
+				5A3FEFC81E012FD8005366F1 /* AboutViewController.swift in Sources */,
+				5A3FEFC61E012F44005366F1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5A403BCF1E00E6C70069AA1D /* Main.storyboard */ = {
+		5A3FEFC91E013954005366F1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5A403BD01E00E6C70069AA1D /* Base */,
+				5A3FEFCA1E013954005366F1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -265,11 +306,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T452ZH54XV;
 				INFOPLIST_FILE = "V-Beltcalc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-LOOP.V-Beltcalc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "V-Beltcalc/V-Beltcalc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -278,11 +322,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = T452ZH54XV;
 				INFOPLIST_FILE = "V-Beltcalc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-LOOP.V-Beltcalc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "V-Beltcalc/V-Beltcalc-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -306,6 +352,7 @@
 				5A403BDF1E00E6C70069AA1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
